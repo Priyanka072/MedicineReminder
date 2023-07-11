@@ -1,0 +1,51 @@
+import React from "react"
+import { ScrollView, Text, View } from "react-native"
+import Style from "../assets/Style"
+import { COLORS } from "../assets/Colors"
+
+export const TermsOfServies = () => {
+    return (
+        <View style={{ padding: 10, marginLeft: -10 ,backgroundColor:COLORS.white}}>
+            <ScrollView>
+                <Text style={{ alignSelf: "center", fontFamily: "Poppins-Bold", fontSize: 16, padding: 5, color: COLORS.black, marginTop: 10 }}>
+                    Terms of Services
+                </Text>
+                <Text style={[Style.text, { marginTop: 10 }]}>Welcome to Gokhale Maharajas Alumnis Association (“Platform”). Your use of the Platform shall be governed in accordance with this Terms of Use (“Agreement”) along with the Privacy Policy, as modified and amended from time to time.</Text>
+                <Text style={Style.text}>The Company is an Intermediary under the Information Technology Act, 2000 and Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 and is in compliance with the rules.</Text>
+                <Text style={Style.text}>This Agreement is an electronic record in the form of an electronic contract formed under the Information Technology Act, 2000 and rules made there under and the amended provisions pertaining to electronic documents/records in various ways amended by the Information Technology Act, 2000. This Agreement does not require any physical, electronic or digital signature.</Text>
+                <Text style={Style.textbold}>APPLICABILITY OF THIS AGREEMENT</Text>
+                <Text style={Style.text}>THIS AGREEMENT IS A LEGALLY BINDING DOCUMENT BETWEEN YOU AND THE COMPANY. BY USING THE PLATFORM, ITS SERVICES, AND FEATURES, YOU ARE ACKNOWLEDGING, WITHOUT LIMITATION OR QUALIFICATION, TO BE BOUND BY THESE TERMS OF USE, WHETHER YOU HAVE READ THE SAME OR NOT</Text>
+                <Text style={Style.textbold}>ABOUT US</Text>
+                <Text style={Style.text}>The Platform provides to You an application where You can connect and interact with alumni communities and groups of Your choice and regularly see news and updates about that community and the people of that community (“Services”). By subscribing to our Services, You agree to:</Text>
+                <Text style={Style.text}>Provide current, complete, and accurate information about Yourself as prompted to do so by the Platform;</Text>
+                <Text style={Style.text}>To maintain and update the above information as required and submitted by You with the view to maintain the accuracy of the information being current and complete</Text>
+                <Text style={Style.textbold}> ELIGIBILITY TO USE</Text>
+                <Text style={Style.text}>You represent that You are of legal age to form a binding contract and are not a person barred from receiving information under the laws as applicable in India. Notwithstanding the foregoing, if You are below the age of eighteen (18) years, please read through this Agreement with Your parent or legal guardian, and in such a case this Agreement shall be deemed to be a contract between the Company and Your legal guardian or parent and to the extent permissible under applicable laws, enforceable against You.
+                    We reserve the right to refuse access to use the Platform to any new users or to terminate access already granted to You at any time without giving any reason for doing so. You shall not have more than one active Account (defined below) on the Platform.</Text>
+                <Text style={Style.textbold}>YOUR ACCOUNT</Text>
+                <Text style={Style.text}>To avail Our Services, You are required to create an account on the Platform (“Account”). You agree to furnish all the requisite details and information that We may request at the time of creation of account and thereafter. You shall be responsible for maintaining confidentiality of all such information furnished to us including without limitation, login credentials etc. You agree to immediately notify us of any unauthorized use of Your Account information or any other breach of security. We will not be liable for any loss or damage arising from Your failure to comply with this section. You may be held liable for losses incurred by us or any other user of or visitor to the Platform due to authorized or unauthorized use of Your Account as a result of Your failure in keeping Your Account information secure and confidential.</Text>
+                <Text style={Style.text}>You further declare and affirm that all the details provided to us by You are correct and true to the best of Your knowledge and belief. If any information provided by You is incorrect, illegal, or against the provisions of any laws, We shall have the right to terminate this Agreement and deactivate/delete Your Account on the Platform.</Text>
+                <Text style={Style.textbold}>USER OBLIGATIONS</Text>
+                <Text style={Style.text}>We grant You a non-exclusive, non-sub-licensable, non-transferable, revocable, and limited right to access and use this Platform.</Text>
+                <Text style={Style.text}>You agree not to access (or attempt to access) the Platform by any means other than through the interfaces that are provided by the Company. You shall not use any deep-link, robot, spider or other automatic device, program, algorithm or methodology, or any similar or equivalent manual process, to access, acquire, copy or monitor any portion of the Platform or in any way reproduce or circumvent the navigational structure or presentation of the Platform, to obtain or attempt to obtain any materials, documents or information through any means not specifically made available through the Platform.</Text>
+                <Text style={Style.textbold}>INTELLECTUAL PROPERTY RIGHTS</Text>
+                <Text style={Style.text}>The Platform and the processes, and their selection and arrangement, including but not limited to all text, graphics, user interfaces, visual interfaces, and computer code on the Platform (“Company’s Content”) is owned and controlled by the Company or its licensors and the design, structure, selection, coordination, expression, look and feel and arrangement of such Company’s Content is protected by copyright, patent and trademark laws, and various other intellectual property rights (“Company’s Intellectual Property Rights”). Through Your use of the Platform, by no means are any rights impliedly or expressly granted to You in respect of Company’s Content except as otherwise mentioned in this Agreement. We reserve the right to change or modify Company’s Content from time to time at our sole discretion.</Text>
+                <Text style={Style.text}>The trademarks, logos and service marks displayed on the Platform are the property of the Company or respective third parties. You are not permitted to use the marks without the prior consent of the Company or the third party that may own the marks.</Text>
+                <Text style={Style.text}>We grant You a limited license to use the Company’s Content and Company’s Intellectual Property Rights to the extent necessary to use the Platform and the Services</Text>
+                <Text style={Style.textbold}>CONTENT</Text>
+                <Text style={Style.text}>We strongly believe in freedom of speech and expression and based on this belief have developed a Platform for exchange of ideas, images, videos, updates, and other such content (“Content”). All the rights in such Content shared by You shall remain with You and We do not have any ownership rights and will never claim any intellectual property rights over Your Content.</Text>
+                <Text style={Style.text}>You will be responsible for all the Content that You post through Your Account. However, all such Content shall at all times be in accordance with this Agreement and the Applicable Law. You shall ensure that while uploading the Content, You do not violate or infringe upon intellectual property rights of any third parties or that of The Company.</Text>
+                <Text style={Style.textbold}>DISCLAIMER OF WARRANTIES & LIABILITY</Text>
+                <Text style={Style.text}>The Platform and the Services therein, are provided to us on an "as is" basis without warranty of any kind, express, implied, statutory or otherwise.</Text>
+                <Text style={Style.text}>You expressly understand and agree that, to the maximum extent permitted by Applicable Law, We will not be liable for any loss that You may incur as a consequence of unauthorized use of Your Account or Account information in connection with the Platform or any Services, either with or without Your knowledge.</Text>
+                <Text style={Style.textbold}>TERM AND TERMINATION</Text>
+                <Text style={Style.text}>This Agreement will continue to apply till the time Your account is active and You use our Services. You may terminate this Agreement by sending email to us at:  die9reise@gmail.com</Text>
+                <Text style={Style.text}>You agree that the Company may, in its sole discretion and without prior notice, terminate Your access to the Platform and block Your future access to the Platform if Company determines that You have violated the terms of this Agreement or under the of the Court/Competent Authority.</Text>
+                <Text style={Style.text}>COMMUNICATIONS</Text>
+                <Text style={Style.text}>When You use the Platform or communicate with us, You agree and understand that You are communicating with us through electronic records and You consent to receive communications via electronic records from us periodically or as and when required as per the terms of this Agreement and our Privacy Policy. We will communicate with You by sending you push notifications.
+                    You can reach out to our support team to address Your concerns and/or queries at :die9reise@gmail.com
+                </Text>
+            </ScrollView>
+        </View>
+    )
+}
