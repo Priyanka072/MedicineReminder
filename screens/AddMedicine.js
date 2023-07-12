@@ -25,12 +25,11 @@ const AddMedicine = () => {
     const shapes = [
         { key: '1', value: "Pill" },
         { key: '2', value: "Injection" },
-        { key: '3', value: "Syrup" },
-        { key: '4', value: "Tablet" },
-        { key: '4', value: "Further Study" },
-        { key: '4', value: "Further Study" },
-        { key: '4', value: "Further Study" },
-        { key: '4', value: "Further Study" },
+        { key: '3', value: "Solution(liquid)" },
+        { key: '4', value: "Drops" },
+        { key: '4', value: "Inhaler" },
+        { key: '4', value: "Powder" },
+        { key: '4', value: "Other" },
     ]
 
     const showDatePicker = () => {
